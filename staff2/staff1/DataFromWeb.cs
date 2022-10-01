@@ -18,7 +18,7 @@ namespace staff1
             string year = DateTime.Now.ToString("yy");
             string combo = Month + @"%2F" + Day + @"%2F" + year;
             //string Input = textBox1.Text;
-            //byte[] raw = client.DownloadData(@"http://svrp000627ee/gss/Scor/BuildingSummary.asp?Date=" + combo + "&Sort=ALL&Accept=Accept");
+
             ////string webdata = Encoding.UTF8.GetString(raw);
             List<string> Lines = new List<string>();
             List<string> Data = new List<string>();
