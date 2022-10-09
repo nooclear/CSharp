@@ -1,0 +1,86 @@
+D:\work\staff1\staff1\bin\Release\staff1.exe.config
+D:\work\staff1\staff1\bin\Release\staff1.exe
+D:\work\staff1\staff1\bin\Release\staff1.pdb
+D:\work\staff1\staff1\obj\Release\staff1.Form1.resources
+D:\work\staff1\staff1\obj\Release\staff1.Properties.Resources.resources
+D:\work\staff1\staff1\obj\Release\staff1.csproj.GenerateResource.cache
+D:\work\staff1\staff1\obj\Release\staff1.csproj.CoreCompileInputs.cache
+D:\work\staff1\staff1\obj\Release\staff1.exe
+D:\work\staff1\staff1\obj\Release\staff1.pdb
+D:\work\staff1\staff1\bin\Release\x86\sqlite3.dll
+D:\work\staff1\staff1\bin\Release\x64\sqlite3.dll
+D:\work\staff1\staff1\obj\Release\staff1.csprojAssemblyReference.cache
+D:\work\staff1 - Copy\staff1\bin\Release\x86\sqlite3.dll
+D:\work\staff1 - Copy\staff1\bin\Release\x64\sqlite3.dll
+D:\work\staff1 - Copy\staff1\bin\Release\Newtonsoft.Json.xml
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.csprojAssemblyReference.cache
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.Form1.resources
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.Form2.resources
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.Properties.Resources.resources
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.csproj.GenerateResource.cache
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.csproj.CoreCompileInputs.cache
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.csproj.CopyComplete
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.Form3.resources
+D:\work\staff1 - Copy\staff1\obj\Release\staff1.Form4.resources
+D:\work\staff1 - Copy\staff1\obj\Release\Staffing.exe
+D:\work\staff1 - Copy\staff1\obj\Release\Staffing.pdb
+D:\work\staff1 - Copy\staff1\bin\Release\Staffing.exe.config
+D:\work\staff1 - Copy\staff1\bin\Release\Staffing.exe
+D:\work\staff1 - Copy\staff1\bin\Release\Staffing.pdb
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\x86\sqlite3.dll
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\x64\sqlite3.dll
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\Staffing.exe.config
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\Staffing.exe
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\Staffing.pdb
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Release\Newtonsoft.Json.xml
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Form1.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Form2.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Form3.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Form4.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Properties.Resources.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.csproj.GenerateResource.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.csproj.CopyComplete
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\Staffing.exe
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\Staffing.pdb
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.csprojAssemblyReference.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Release\staff1.Form5.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\x86\sqlite3.dll
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\x64\sqlite3.dll
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.exe.config
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.exe
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.pdb
+E:\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Newtonsoft.Json.xml
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csprojAssemblyReference.cache
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form1.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form2.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form3.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form4.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form5.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form6.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Properties.Resources.resources
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.GenerateResource.cache
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.CopyComplete
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\Staffing.exe
+E:\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\Staffing.pdb
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\x86\sqlite3.dll
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\x64\sqlite3.dll
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.exe.config
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.exe
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Staffing.pdb
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\bin\Release\Newtonsoft.Json.xml
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.AssemblyReference.cache
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.SuggestedBindingRedirects.cache
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form1.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form2.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form3.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form4.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form5.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Form6.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.Properties.Resources.resources
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.GenerateResource.cache
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.CoreCompileInputs.cache
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\staff1.csproj.CopyComplete
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\Staffing.exe
+C:\Users\soduo\Desktop\d\Projects\C#\UPS\staff2 - Copy\staff1\obj\Release\Staffing.pdb

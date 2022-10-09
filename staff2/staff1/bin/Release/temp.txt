@@ -1,0 +1,613 @@
+
+
+<HTML>
+<HEAD>
+	<TITLE></TITLE>
+	<link rel="stylesheet" type="text/css" href="../new.css">
+</HEAD>
+<BODY>
+<FORM id=form name=form action="BuildingSummary.asp" method=get>
+<CENTER>
+
+
+<div align="center"><center>
+<br>
+
+<table border="0" width="90%">
+    <tr>
+        <td nowrap>Friday, June 21, 2019</td>
+        <td align="middle" nowrap><font size="2">
+			<strong>UPS Reporting</strong></font></td>
+        <td align="right" nowrap>
+			<table>
+				<tr>
+					<td>US</td>
+					<td>07</td>
+					<td>32</td>
+					<td>MTLPA</td>
+					<td>1769</td>
+				</tr>
+			</table>
+        </td>
+    </tr>
+    <tr>
+		<td nowrap>8:07:47 PM</td>
+        <td align="middle" nowrap>
+			<font size=2>
+				<strong><span id=title>Building Summary Report</span></strong>
+			</font>
+		</td>
+        <td align="right" nowrap>
+			<table>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;PAMTL</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td align="middle" nowrap><strong>Harrisburg Air Relief</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</center></div>
+
+<SCRIPT LANGUAGE=vbscript>
+<!--
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function RepairReason_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function FromDate_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function toDate_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function Date_OnChange()
+		dim coll
+		set coll = window.document.all.item ("DATEDISPLAYED")
+				
+		if not coll is Nothing then
+			window.document.form.DATEDISPLAYED.value = document.form.Date.options(document.form.Date.selectedIndex).outerText
+		end if
+		
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function BatteryType_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function Sort_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function Belt_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function Bay_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function DestSlic_OnChange()
+		window.document.form.submit()
+	end function
+	
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function UserID_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function DestinationSort_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function DestCountryCode_OnChange()
+		window.document.form.submit()
+	end function
+	
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function ULDNumber_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function LCULDNumber_OnChange()
+		window.document.form.submit()
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function ULDType_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function LoadServiceLevel_OnChange()
+		window.document.form.submit()
+	end function
+	
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function ScanType_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function LoadCreateDate_OnChange()
+		window.document.form.submit()
+	end function
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function ActivitySort_OnChange()
+		window.document.form.submit()
+	end function
+	
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function SearchRptSummary_OnChange()
+		window.document.form.action="Search_Rpt_Sum.asp"
+		window.document.form.SearchRptSummary.disabled = false
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function SearchRptDetail_OnChange()
+		window.document.form.action="Search_Rpt_Dtl.asp"
+		window.document.form.SearchRptDetail.disabled = false
+	end function
+	
+	
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function OnChange( strFunc )
+		on error resume next
+		t_strType = TypeName(GetRef(strFunc))
+
+		if t_strType = "Object" then
+			call strFunc
+		end if
+
+		if ((strFunc <> "SearchRptDetail_OnChange") and (strFunc <> "SearchRptDetail_OnChange"))then
+			Enable_Accept()
+		else
+			window.document.form.SearchRptSummary.disabled = false
+			window.document.form.SearchRptDetail.disabled = false
+		end if
+		
+	
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function Enable_Accept()
+		window.document.form.Accept.disabled = false
+	end function
+
+	'**************************************************************************
+	'
+	'**************************************************************************
+	function window_onload()
+		window.document.form.Accept.disabled = true
+		
+
+		on error resume next
+		t_strType = TypeName(GetRef("custom_Onload"))
+
+		if t_strType = "Object" then
+			custom_Onload()
+		end if
+	end function
+//-->
+</SCRIPT>
+
+
+
+<BR>
+<TABLE width="90%">
+	<TR>
+		<TD Style="text-align:left">
+			<table border="0" width="90%">
+				<tr valign=top>
+					<td Style="text-align:left" nowrap><strong>Date:</strong><BR>
+						<SELECT ID="Date" Name="Date" language=vbscript onchange="OnChange( 'Date_OnChange' )"  ><OPTION selected value="06/21/19">06/21/19</OPTION><OPTION value="06/20/19">06/20/19</OPTION><OPTION value="06/19/19">06/19/19</OPTION></SELECT>
+					</td>
+					<td Style="text-align:left" nowrap><strong>Sort:</strong><BR>
+						<SELECT ID="Sort" Name="Sort" language=vbscript onchange="OnChange( 'Sort_OnChange' )"  ><OPTION selected value="ALL">ALL</OPTION><OPTION value="04">TWILIGHT</OPTION></SELECT>
+					</td>
+					<td Style="text-align:left" nowrap><BR>
+						<INPUT type="submit" id="Accept" name="Accept" value="Accept" language=vbscript onchange="OnChange( 'Accept_OnChange' )" onkeypress="OnChange( 'Accept_OnChange' )" onpaste="OnChange( 'Accept_OnChange' )" >
+					</td>
+				</tr>
+			</table>
+		</TD>
+		<TD Style="text-align:right">
+			<img border=0 src="../Images/upslogosmall.jpg" alt="UPS Logo">
+		</TD>
+	</TR>
+</TABLE>
+
+<BR>
+<TABLE BORDER=1 WIDTH="90%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TH>Sort							</TH>
+		<TH>Total Pkgs						</TH>
+		<TH>Key Entered						</TH>
+		<TH>Bags Keyed						</TH>
+		<TH>Bags Created					</TH>
+		<TH>Bags Linked						</TH>
+		<!--<TH>RNC Balance Bags				</TH>-->
+		<TH>Bags Reprcd						</TH>
+		<TH>Exceptions						</TH>
+		<TH>Pkg Override					</TH>
+		<TH>Missed Bags						</TH>
+		<TH>Pkgs in Missed Bags				</TH>
+		<TH># of Dups						</TH>
+		<TH># of Users						</TH>
+		<TH>Scanned Flow Per Hour			</TH>
+	</TR>
+	
+		<TR>
+			<TD bgcolor=Silver><strong><A href=HubSummary.asp?Date=06%2F21%2F19&Sort=04&Belt=ALL&Accept=Accept>TWILIGHT</A></strong></TD>
+			<TD>&nbsp;13275</TD>
+			<TD>&nbsp;10</TD>
+			<TD>&nbsp;0</TD>
+			<TD>&nbsp;248</TD>
+			<TD>&nbsp;242</TD>
+			<!--<TD>&nbsp;0</TD>-->
+			<TD>&nbsp;1</TD>
+			<TD>&nbsp;0</TD>
+			<TD>&nbsp;0</TD>
+			<TD>&nbsp;9</TD>
+			<TD>&nbsp;26</TD>
+			<TD>&nbsp;671</TD>
+			<TD>&nbsp;26</TD>
+			<TD>&nbsp;2588</TD>
+		</TR>
+	
+		<TR><TD colspan=19>&nbsp;</TD></TR>
+
+	
+		<TR>
+			<TD bgcolor="silver"><strong>Total</strong></TD>
+			<TD bgcolor="silver">&nbsp;13275</TD>
+			<TD bgcolor="silver">&nbsp;10</TD>
+			<TD bgcolor="silver">&nbsp;0</TD>
+			<TD bgcolor="silver">&nbsp;248</TD>
+			<TD bgcolor="silver">&nbsp;242</TD>
+			<!--<TD bgcolor="silver">&nbsp;0</TD>-->
+			<TD bgcolor="silver">&nbsp;1</TD>
+			<TD bgcolor="silver">&nbsp;0</TD>
+			<TD bgcolor="silver">&nbsp;0</TD>
+			<TD bgcolor="silver">&nbsp;9</TD>
+			<TD bgcolor="silver">&nbsp;26</TD>
+			<TD bgcolor="silver">&nbsp;671</TD>
+			<TD bgcolor="silver">&nbsp;26</TD>
+			<TD bgcolor="silver">&nbsp;2588</TD>
+		</TR>
+	
+</TABLE>
+<P></P>
+
+<TABLE WIDTH="90%" border=0 cellspacing=0 cellpadding=5>
+	<TR valign=top>
+		<TD Style="text-align:left">
+			No data for exception table.
+		</TD>
+		<TD Style="text-align:left">
+			
+
+			<Strong>Destination Scans</Strong>
+			<TABLE border=1 cellspacing=0 cellpadding=0>
+				<THEAD>
+				<TR>
+					<TD rowspan=2>Number</TD>
+					<TD rowspan=2>Sort</TD>
+					<TD colspan=2>Destination</TD>
+				</TR>
+				<TR>
+					<TD>SLIC</TD>
+					<TD>Sort</TD>
+				</TR>
+				</THEAD>
+
+				
+				<TR>
+					<TD>&nbsp;1824</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;1569</TD>
+					<TD>&nbsp;N</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;1684</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;1719</TD>
+					<TD>&nbsp;N</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;1057</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;6059</TD>
+					<TD>&nbsp;D</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;868</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;4009</TD>
+					<TD>&nbsp;N</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;822</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;1949</TD>
+					<TD>&nbsp;N</TD>
+				</TR>
+				
+			</TABLE>
+			
+		</TD>
+		<TD Style="text-align:left">
+			<Strong>Missed Bags</Strong>
+			<TABLE border=1 cellspacing=0 cellpadding=0>
+				<THEAD>
+				<TR>
+					<TD rowspan=2>#</TD>
+					<TD rowspan=2>Sort</TD>
+					<TD colspan=2>Destination</TD>
+					<TD rowspan=2>Belt</TD>
+				</TR>
+				<TR>
+					<TD>SLIC</TD>
+					<TD>Sort</TD>
+				</TR>
+				</THEAD>
+
+			
+
+				<TR>
+					<TD>&nbsp;2</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;1949</TD>
+					<TD>&nbsp;N</TD>
+					<TD>&nbsp;SS</TD>
+				</TR>
+				
+
+				<TR>
+					<TD>&nbsp;1</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;4959</TD>
+					<TD>&nbsp;P</TD>
+					<TD>&nbsp;SS</TD>
+				</TR>
+				
+
+				<TR>
+					<TD>&nbsp;1</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;3009</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;SS</TD>
+				</TR>
+				
+
+				<TR>
+					<TD>&nbsp;1</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;1569</TD>
+					<TD>&nbsp;N</TD>
+					<TD>&nbsp;SS</TD>
+				</TR>
+				
+
+				<TR>
+					<TD>&nbsp;1</TD>
+					<TD>&nbsp;T</TD>
+					<TD>&nbsp;0819</TD>
+					<TD>&nbsp;P</TD>
+					<TD>&nbsp;SS</TD>
+				</TR>
+				
+			</TABLE>
+			
+		</TD>
+	</TR>
+<!--
+</TABLE>
+<TABLE WIDTH=90% cellspacing=0 cellpadding=5>
+-->
+	<TR VALIGN=TOP>
+		<TD Style="text-align:left">
+			
+			
+			<Strong>User Scanned PPH</Strong>
+			<TABLE border=1 cellspacing=0 cellpadding=0>
+				<THEAD>
+				<TR>
+					<TD>Scan PPH</TD>
+					<TD>Total Scans</TD>
+					<TD>Total Hours</TD>
+					<TD>Name</TD>
+					<TD>Sort</TD>
+				</TR>
+				</THEAD>
+				
+				<TR>
+					<TD>&nbsp;1</TD>
+					<TD>&nbsp;4</TD>
+					<TD>&nbsp;02:36</TD>
+					<TD nowrap>&nbsp;<A href=UserFollowUp.asp?Date=06%2F21%2F19&Sort=04&Employee=POTTS6558A&Accept=Accept>POTTS6558A</A></TD>
+					<TD>&nbsp;T</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;24</TD>
+					<TD>&nbsp;31</TD>
+					<TD>&nbsp;01:15</TD>
+					<TD nowrap>&nbsp;<A href=UserFollowUp.asp?Date=06%2F21%2F19&Sort=04&Employee=ENCK86249S&Accept=Accept>ENCK86249S</A></TD>
+					<TD>&nbsp;T</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;29</TD>
+					<TD>&nbsp;106</TD>
+					<TD>&nbsp;03:39</TD>
+					<TD nowrap>&nbsp;<A href=UserFollowUp.asp?Date=06%2F21%2F19&Sort=04&Employee=ZINKA8634C&Accept=Accept>ZINKA8634C</A></TD>
+					<TD>&nbsp;T</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;42</TD>
+					<TD>&nbsp;179</TD>
+					<TD>&nbsp;04:11</TD>
+					<TD nowrap>&nbsp;<A href=UserFollowUp.asp?Date=06%2F21%2F19&Sort=04&Employee=CEDON989CL&Accept=Accept>CEDON989CL</A></TD>
+					<TD>&nbsp;T</TD>
+				</TR>
+				
+				<TR>
+					<TD>&nbsp;43</TD>
+					<TD>&nbsp;99</TD>
+					<TD>&nbsp;02:18</TD>
+					<TD nowrap>&nbsp;<A href=UserFollowUp.asp?Date=06%2F21%2F19&Sort=04&Employee=HORTI8989Q&Accept=Accept>HORTI8989Q</A></TD>
+					<TD>&nbsp;T</TD>
+				</TR>
+				
+			</TABLE>
+			
+		</TD>
+		<TD Style="text-align:left">
+		
+		
+			
+			<Strong>Key Entered</Strong>
+			<TABLE border=1 cellspacing=0 cellpadding=0>
+				<THEAD>
+				<TR>
+					<TD># Key Entered</TD>
+					<TD>Shipper Number</TD>
+				</TR>
+				</THEAD>
+				
+				<TR>
+					<TD>5</TD>
+					<TD><A href=ShipperSummary.asp?Date=06%2F21%2F19&Sort=ALL&Shipper=6E396V&Accept=Accept>6E396V</A></TD>
+				</TR>
+			
+				<TR>
+					<TD>2</TD>
+					<TD><A href=ShipperSummary.asp?Date=06%2F21%2F19&Sort=ALL&Shipper=9F0901&Accept=Accept>9F0901</A></TD>
+				</TR>
+			
+				<TR>
+					<TD>1</TD>
+					<TD><A href=ShipperSummary.asp?Date=06%2F21%2F19&Sort=ALL&Shipper=9700RE&Accept=Accept>9700RE</A></TD>
+				</TR>
+			
+				<TR>
+					<TD>1</TD>
+					<TD><A href=ShipperSummary.asp?Date=06%2F21%2F19&Sort=ALL&Shipper=78R086&Accept=Accept>78R086</A></TD>
+				</TR>
+			
+				<TR>
+					<TD>1</TD>
+					<TD><A href=ShipperSummary.asp?Date=06%2F21%2F19&Sort=ALL&Shipper=2323XF&Accept=Accept>2323XF</A></TD>
+				</TR>
+			
+			</TABLE>
+			
+		</TD>
+		<TD Style="text-align:left">
+		
+				
+		<Strong>Smalls</Strong>
+		<TABLE border=1 cellspacing=0 cellpadding=0>
+			<TR>
+				<TD style="text-align:left" >
+				&nbsp;1379 Smalls Processed<BR>
+				
+				&nbsp;10% of Total Volume<BR>
+				&nbsp;242 Bags Linked<BR>
+				&nbsp;5.56 Pieces per bag<BR>
+				&nbsp;249 Created + Reprocessed<BR>
+				&nbsp;0 Smalls SPA'ed On Same Sort<BR>
+				&nbsp;0 Smalls SPA'ed On Diff Sort<BR>
+				&nbsp;5.56  Pieces per bag including SPA<BR>
+				</TD>
+			</TR>
+		</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

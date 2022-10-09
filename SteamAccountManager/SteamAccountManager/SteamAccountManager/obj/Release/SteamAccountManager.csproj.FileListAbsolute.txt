@@ -1,0 +1,11 @@
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\bin\Release\SteamAccountManager.exe.config
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\bin\Release\SteamAccountManager.exe
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\bin\Release\SteamAccountManager.pdb
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.csproj.AssemblyReference.cache
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.Properties.Resources.resources
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.csproj.GenerateResource.cache
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.csproj.CoreCompileInputs.cache
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.exe
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.pdb
+C:\Users\Dev-Station\Desktop\Projects\C#\SteamAccountManager\SteamAccountManager\SteamAccountManager\obj\Release\SteamAccountManager.Main.resources

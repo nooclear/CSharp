@@ -1,0 +1,28 @@
+D:\work\staff1\staff1\bin\Debug\staff1.exe.config
+D:\work\staff1\staff1\bin\Debug\staff1.exe
+D:\work\staff1\staff1\bin\Debug\staff1.pdb
+D:\work\staff1\staff1\obj\Debug\staff1.csprojAssemblyReference.cache
+D:\work\staff1\staff1\obj\Debug\staff1.Form1.resources
+D:\work\staff1\staff1\obj\Debug\staff1.Properties.Resources.resources
+D:\work\staff1\staff1\obj\Debug\staff1.csproj.GenerateResource.cache
+D:\work\staff1\staff1\obj\Debug\staff1.csproj.CoreCompileInputs.cache
+D:\work\staff1\staff1\obj\Debug\staff1.exe
+D:\work\staff1\staff1\obj\Debug\staff1.pdb
+D:\work\staff1\staff1\bin\Debug\employees.xml
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\x86\sqlite3.dll
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\x64\sqlite3.dll
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\Staffing.exe.config
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\Staffing.exe
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\Staffing.pdb
+E:\Projects\C#\UPS\staff1 - Copy\staff1\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.csprojAssemblyReference.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.Form1.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.Form2.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.Form3.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.Form4.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.Properties.Resources.resources
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.csproj.GenerateResource.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\staff1.csproj.CopyComplete
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\Staffing.exe
+E:\Projects\C#\UPS\staff1 - Copy\staff1\obj\Debug\Staffing.pdb
